@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  tictactoe:
+    container_name: tictactoe
+    build:
+      context: .
+    ports:
+      - '1337:80'
